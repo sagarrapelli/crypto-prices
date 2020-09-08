@@ -5,7 +5,7 @@ Crypto Prices is a Spring Boot application that shows prices of cryptocurrencies
 
 ```
 Link to the live app
-[Heroku-server](https://crypto-prices-spring.herokuapp.com/)
+https://crypto-prices-spring.herokuapp.com/
 ```
 
 ## **Note**
@@ -14,6 +14,8 @@ I have used  Public APIs of the exchanges which serve only a few requests. If th
 
 
 
+
+### Screenshot
 ![ScreenShot](https://github.com/sagarrapelli/crypto-prices/blob/master/screenshots/Screen%20Shot%202020-09-08%20at%2012.49.36%20PM.png)
 
 
@@ -42,7 +44,7 @@ I have used  Public APIs of the exchanges which serve only a few requests. If th
 
 ## Rest API Endpoint
 
- The Spring RestController provides an enpoint
+ The Spring RestController provides an endpoint
 ```
 /price/{id}
 ```
