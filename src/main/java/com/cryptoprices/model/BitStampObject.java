@@ -1,5 +1,8 @@
 package com.cryptoprices.model;
 
+/*
+ * POJO of Json returned from BitStamp
+ */
 public class BitStampObject {
 	private String last;
 	private String high;

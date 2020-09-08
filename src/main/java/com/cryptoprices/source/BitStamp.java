@@ -8,7 +8,9 @@ import org.springframework.web.client.RestTemplate;
 import com.cryptoprices.mapper.Mapper;
 import com.cryptoprices.model.BitStampObject;
 import com.cryptoprices.model.Price;
-
+/*
+ * This class is used to get data from BitStamp API
+ */
 @Component
 public class BitStamp extends Source {
 	

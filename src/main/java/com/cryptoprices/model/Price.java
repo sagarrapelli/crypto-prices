@@ -1,5 +1,8 @@
 package com.cryptoprices.model;
 
+/*
+ * Price Object contains price from exchanges
+ */
 public class Price {
 	
 	private String exchange;

@@ -1,5 +1,8 @@
 package com.cryptoprices.model;
 
+/*
+ * POJO of Json returned from Gemini
+ */
 public class GeminiObject {
 	private String last;
 	private String bid;

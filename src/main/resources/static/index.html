@@ -1,0 +1,93 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="welcome.css">
+	<script type="text/jscript" src="js/jquery.min.js"></script>
+	<script type="text/jscript" src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<style type="text/css">
+		.bg-cover {
+			background-image: url('bckgrnd2.jpg');
+		}
+	</style>
+</head>	
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">CryptoPrice</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Exchanges
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="http://bitstamp.net">BitStamp</a>
+						<a class="dropdown-item" href="">Gemini</a>
+					</div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0" action="https://www.linkedin.com/in/sagar-rapelli-40034016b/">
+				<button class="btn btn-outline-success my-2 my-sm-0">Contact</button>
+			</form>
+		</div>
+	</nav>
+	
+	<div class="jumbotron jumbotron bg-cover" style="height: 600px;">
+		<div class="overlay"></div>
+		<h1 class="display-3 mb-1">Welcome to CryptoPrice</h1>
+		<p class="text--featured-large pro-spotlight__pitch">
+			Get real time cryptocurrency prices from top exchanges<br>
+		Prices are updated every 10 seconds dynamically</span></p>
+
+		
+	</div>
+
+	<div class="container container--condensed">
+		<div class="row">
+			<div class="col text--center">
+				<h2 class="currencies">Select currency from below to view prices.</h2>
+				<div class="divider divider--compact divider--center"></div>
+				<div class="row">
+					<div class="col col-sm-12">
+						<a  href="#" target="_blank" rel="noopener noreferrer nofollow">
+							<img alt="Bitcoin" class="currencies__logo1" src="bitcoin.png" onclick="getCrypto('btc')">
+						</a>
+					</div>
+					<div class="col col-sm-12">
+						<a href="" target="_blank" rel="noopener noreferrer nofollow">
+							<img alt="Ethereum" class="currencies__logo2" src="ethereum.png" onclick="getCrypto('eth')">
+						</a>
+					</div>
+					<div class="col col-sm-12">
+						<a href="" target="_blank" rel="noopener noreferrer nofollow">
+
+						</a>
+					</div>
+				</div>
+				<div class="js-ga button button--outline">
+					More options on the way
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<footer class="footer">
+		<div class="container">
+			<span class="text-footer" style="line-height: 3.5;"><p>Copyright &copy;2020 Sagar Rapelli</span>
+		</div>
+	</footer>
+
+
+</body>
+</html>

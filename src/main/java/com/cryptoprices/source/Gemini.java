@@ -8,7 +8,9 @@ import org.springframework.web.client.RestTemplate;
 import com.cryptoprices.mapper.Mapper;
 import com.cryptoprices.model.GeminiObject;
 import com.cryptoprices.model.Price;
-
+/*
+ * Class for getting data from Gemini API
+ */
 @Component
 public class Gemini extends Source {
 	
