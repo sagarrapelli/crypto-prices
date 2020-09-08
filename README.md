@@ -5,7 +5,7 @@ Crypto Prices is a Spring Boot application that shows prices of cryptocurrencies
 
 ```
 Link to the live app
-https://crypto-prices-spring.herokuapp.com/
+[Heroku](https://crypto-prices-spring.herokuapp.com/)
 ```
 
 ## **Note**
