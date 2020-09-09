@@ -28,13 +28,13 @@ I have used  Public APIs of the exchanges which serve only a few requests. If th
 
 ## Steps to run
 1. Clone this repository
-2. If you use Maven, run the following command in a terminal window
+2. If you use Maven, you can run the application using
 ```
 ./mvnw spring-boot:run
 ```
-3. Or you can run the JAR file as follows
+3. Alternatively, you can build the JAR file using command './mvnw clean package' and then run the JAR file, as follows:
 ```
-./mvnw clean install
+java -jar target/crypto-prices-0.0.1-SNAPSHOT.jar
 ```
 4. Or open the project in an IDE and run as Java Application
 5. Open browser and navigate to http://localhost:8080/ to see the application 
